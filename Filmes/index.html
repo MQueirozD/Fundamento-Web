@@ -1,76 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melhores Filmes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Filmes</h1>
-    <ul>
-        <li >
-            <a href="index.html" >Home</a>
-        </li>
-        <li>
-            <a href="contato.html" target="_blank">Contato</a>
-        </li>
-    </ul>
+
+    <div id="menu" >
+        <h1 class="nomeFilme">Filmes</h1>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contato.html" target="_blank">Contato</a>
+            </li>
+        </ul>
+    </div>
     <hr>
 
     <div>
-        <p>
-            Homem Aranha no Aranhaverso
-        </p>
-
-        <p>
-            Em Homem-Aranha no Aranhaverso, Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha
-            inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite
-            chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um
-            sobretudo.
-            <br>
-            A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras
-            versões do Homem-Aranha.
-        </p>
-        <img width="20%" height="20%" src="assets/img/homemAranha.jpg" alt="Homem Aranha">
-        <br>
+        <div >
+            <div class="nomeFilme">
+                <p> Homem Aranha no Aranhaverso </p>
+            </div>
+            <div class="container p-30 ">
+                <p>
+                    Em Homem-Aranha no Aranhaverso, Miles Morales é um jovem negro do Brooklyn que se tornou o
+                    Homem-Aranha
+                    inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em
+                    uma noite
+                    chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob
+                    um
+                    sobretudo.
+                    <br>
+                    A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como
+                    outras
+                    versões do Homem-Aranha.
+                </p>
+                <div>
+                    <img src="assets/img/homemAranha.jpg" alt="Homem Aranha">
+                </div>
+            </div>
+        </div>
         <hr>
-        <iframe width="400" height="250" src="https://www.youtube.com/embed/u417WmZn65M" title="YouTube video player"
+        <div class="video">
+            <iframe width="600" height="450" src="https://www.youtube.com/embed/u417WmZn65M" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
-        <br>
-        <hr>
-        <br>
+        </div>
     </div>
+    <hr>
 
     <div>
-        <p>
-            Vingadores Ultimato
-        </p>
+        <div class="nomeFilme">
+            <p>     Vingadores Ultimato           </p>
+        </div>
 
-        <p>
-            Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os
-            heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.)
-            vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva
-            Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.
-        </p>
-        <img width="20%" height="20%" src="assets/img/ultimato.jpg" alt="Vingadores Ultimato">
-        <br>
+        <div class="container p-30 ">
+            <p>
+                Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os
+                heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.)
+                vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva
+                Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.
+            </p>
+            <img src="assets/img/ultimato.jpg" alt="Vingadores Ultimato">
+
+        </div>          
         <hr>
-        <iframe width="400" height="250" src="https://www.youtube.com/embed/g6ng8iy-l0U" title="YouTube video player"
+        <div class="video">
+            <iframe width="600" height="450" src="https://www.youtube.com/embed/g6ng8iy-l0U" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
-        <br>
-        <hr>
-        <br>
+        </div>
+        
     </div>
-
 
 
 </body>
