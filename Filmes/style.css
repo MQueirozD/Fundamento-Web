@@ -10,10 +10,11 @@
 }
 
 .container {
+    flex-flow: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: rgb(147, 151, 151);    
+    /* background-color: rgb(231, 238, 238);     */
 }
 
 .p-30 {
@@ -36,12 +37,21 @@
 }
 
 h1{
+    text-align: left;
+}
+
+h2{
     text-align: center;
 }
 
 img{
-    width: 40vh ;
-    height: 40vw;
+    width: 50vw;
+    height: 50vh;
+}
+
+.filme img{
+    width: 50vh;
+    height: 30vw;
 }
 
 .video{
@@ -53,26 +63,24 @@ img{
 }
 
 .tm-social{
-    width: 5%;
-    height: 5%;
+    height: 10vh;
 }
 
-/* .zoom{
-    overflow: hidden;
-    /* serve para que a imagem não cire barra 
+.tm-social img {
+    width: 15%;
+    height: 15%;
+}
+/* quando colocar p mouse por cima */
+.tm-social img:hover{ 
+    width: 18%;
+    height: 18%;
 }
 
-.zoom img{
-    max-width: 100%;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+.form label input{
+    display: inline;
+    padding: 10px;
 }
 
-.zoom:hover img {
-    -moz-transition: scala(1.1);
-    -webkit-transition: scala(1.1);
-    transition: scala(1.1);
-} */
-
-
+.container form{
+    align-items:flex;
+}
